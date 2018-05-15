@@ -1,0 +1,11 @@
+framework module NiceLoggerFam {
+  umbrella header "NiceLoggerFam.h"
+
+  export *
+  module * { export * }
+}
+
+module NiceLoggerFam.Swift {
+    header "NiceLoggerFam-Swift.h"
+    requires objc
+}
